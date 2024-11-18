@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://vendanagaragem.com/sitemap.xml
+
+# Prevent indexing of admin or private areas
+Disallow: /admin/
+Disallow: /private/
+Disallow: /checkout/
+Disallow: /cart/
+
+# Allow crawling of static assets
+Allow: /images/
+Allow: /css/
+Allow: /js/
